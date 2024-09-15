@@ -17,5 +17,7 @@ It is evident that there are some sample size problems since contracts such as F
 When comparing the cumulative return over the same window almost all contracts return the same amount. There is a considerable amount of disperion between strategies that likely occurs to convexity mismatches. The third graph is the duration of our duration-hedged basis which shows how there is a convexity mismatch occurs. 
 
 Since its not possible to get MBS Convexity for LUMS index on Bloomberg Terminal plotting the Treasury CTD convexity vs. Average Absolute Duration Exposure of each basis shows
+
 ![image](https://github.com/user-attachments/assets/76a5c34d-849a-4cd2-96af-b892c3c202a7)
+
 The contracts that have the greatest amount of duration mismatch is driven by convexity. Its also a bit obvious that the contracts are placed with respect to their assumed duration with TU being all the way on the left, TY & UXY grouped together and WN far out. 
