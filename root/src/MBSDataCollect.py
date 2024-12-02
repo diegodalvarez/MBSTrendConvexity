@@ -24,12 +24,13 @@ class MBSDataCollect:
         
         self.tsy_futures  = ["FV", "US", "TY", "TU", "WN", "UXY"]
         self.mtg_tickers  = ["LUMS"]
-        self.misc_tickers = ["SGIXTFIR", "MOVE"]
+        self.misc_tickers = ["SGIXTFIR", "MOVE", ".30CC105"]
         
         self.fut_path   = r"C:\Users\Diego\Desktop\app_prod\BBGFuturesManager\data\PXFront" 
         self.deliv_path = r"C:\Users\Diego\Desktop\app_prod\BBGFuturesManager\data\BondDeliverableRisk"
         self.mtge_path  = r"C:\Users\Diego\Desktop\app_prod\BBGData\credit_indices_data"
-        self.bbg_path   = r"C:\Users\Diego\Desktop\app_prod\BBGData\data"
+        #self.bbg_path   = r"C:\Users\Diego\Desktop\app_prod\BBGData\data"
+        self.bbg_path = r"/Users/diegoalvarez/Desktop/BBGData/data"
 
     def _get_tsy_rtn(self, df: pd.DataFrame) -> pd.DataFrame: 
         
